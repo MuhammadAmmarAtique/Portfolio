@@ -1,4 +1,3 @@
-## About 
 <p>This project is my personal portfolio which features some of my skills, GitHub projects and my resume.</p>
 
 <p>Some of the features of this website are:</p>
@@ -18,3 +17,6 @@
   <li><a href="https://www.npmjs.com/package/react-pdf">react-pdf</a>: To preview the resume pdf</li>
   <li><a href="https://www.npmjs.com/package/react-parallax-tilt">react-parallax-tilt</a>: To apply tilt hover effect on react components like image and animation.</li>
 </ul>
+
+Original repo: [https://github.com/DevanshSahni/Portfolio](https://github.com/DevanshSahni/Portfolio)
+This project is a clone of the original repository by Devansh Sahni. Full credit for the original work goes to the owner.
