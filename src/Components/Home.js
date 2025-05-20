@@ -28,13 +28,13 @@ const Home = () => {
       <div className='AboutPage'>
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
-          <p>
-    I love the process of changing a raw idea into a website or a product that impacts lives.
-    I want to do work that challenges me as a developer and work that I can be proud of.<br /><br />
-    I am fluent in <b>JavaScript</b> and am working on a few projects in <b>React.js,</b>
-    I plan to learn <b>Node.js</b>, <b>Express.js</b>, and <b>MongoDB</b> in the near future to complete the MERN stack.<br /><br />
-    Also, I love <b>coffee</b> <CiCoffeeCup style={{scale: "1.5", rotate: "15deg"}}/>   
+        <p>
+  I love the process of turning a raw idea into a website or product that makes a real impact.<br /><br />
+  I’m fluent in <b>JavaScript</b> and have built several projects using the <b>MERN stack (MongoDB, Express.js, React.js, Node.js)</b>. 
+  I enjoy working on challenging problems that push me to grow as a developer and create work I can truly be proud of.<br /><br />
+  Also, I love <b>coffee</b> <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />
 </p>
+
 
         </div>
         <Tilt>
