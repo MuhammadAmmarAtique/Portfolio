@@ -7,16 +7,16 @@ const Footer = () => {
     <footer>
         <h4>Copyright &copy; 2025</h4>
         <div className="footerLinks">
-          <a href="https://github.com/MuhammadAmmarAtique" target="_blank">
+          <a href="https://github.com/MuhammadAmmarAtique" target="_blank"  rel="noreferrer">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/muhammad-ammar-atique-0b409223a/" target="_blank">
+          <a href="https://www.linkedin.com/in/muhammad-ammar-atique-0b409223a/" target="_blank"  rel="noreferrer">
             <FaLinkedin />
           </a>
-          <a href="mailTo:muhammadammaratique@yahoo.com" target="_blank">
+          <a href="mailto:muhammadammaratique@yahoo.com" target="_blank"  rel="noreferrer">
             <GrMail />
           </a>
-          <a href="https://x.com/AmmarAtiqu" target="_blank">
+          <a href="https://x.com/AmmarAtiqu" target="_blank"  rel="noreferrer">
             <FaTwitter />
           </a>
         </div>
