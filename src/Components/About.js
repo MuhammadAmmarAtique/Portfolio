@@ -45,20 +45,21 @@ const About = () => {
         <Skills skill="HTML" />
         <Skills skill="CSS" />
         <Skills skill="JavaScript" />
+        <Skills skill="Mongodb" />
+        <Skills skill="Express" />
         <Skills skill="React.js" />
-        <Skills skill="Tailwind CSS" />
+        <Skills skill="Node" />
         <Skills skill="Bootstrap" />
+        <Skills skill="Tailwind CSS" />
         <Skills skill="Styled Components" />
         <Skills skill="Git" />
         <Skills skill="Github" />
-        <Skills skill="Visual Studio Code" />
         <Skills skill="Stackoverflow" />
         <Skills skill="Python" />
         <Skills skill="C++" />
         <Skills skill="Ubuntu Linux" />
         <Skills skill="Windows" />
         <Skills skill="SQL" />
-        <Skills skill="MS Sql Server" />
         <Skills skill="MySQL" />
       </div>
     </>
