@@ -14,10 +14,9 @@ const About = () => {
           </h1>
           <p>
             Hi, my name is <b>Ammar Atique</b> and I am from Haripur, Pakistan.
-            I'm a <b>React developer</b> and a final year university student
-            pursuing <b>Bachelors in CS</b>. <br />
+            I'm a <b>MERN stack developer</b> with a <b>Bachelors in Computer Science</b>. <br />
             <br />
-            Currently I am looking for an internship as a <b>
+            Currently I am looking for a job as a <b>
               web developer
             </b>{" "}
             in IT sector. I love to create original projects with beautiful
