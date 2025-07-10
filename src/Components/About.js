@@ -13,7 +13,7 @@ const About = () => {
             Get to <b>know</b> me!
           </h1>
           <p>
-            Hi, my name is <b>Ammar Atique</b> and I am from Haripur, Pakistan.
+            Hi, my name is <b>Ammar Atique</b> and I am from Wah Cantt, Pakistan.
             I'm a <b>Software Engineer</b> with a <b>Bachelors in Computer Science</b>. <br />
             <br />
             Currently I am working as a <b>
