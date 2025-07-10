@@ -14,12 +14,12 @@ const About = () => {
           </h1>
           <p>
             Hi, my name is <b>Ammar Atique</b> and I am from Haripur, Pakistan.
-            I'm a <b>MERN stack developer</b> with a <b>Bachelors in Computer Science</b>. <br />
+            I'm a <b>Software Engineer</b> with a <b>Bachelors in Computer Science</b>. <br />
             <br />
-            Currently I am looking for a job as a <b>
-              web developer
+            Currently I am working as a <b>
+              Software Enginner Intern at Pixako Technologies.
             </b>{" "}
-            in IT sector. I love to create original projects with beautiful
+            I love to create projects with beautiful
             designs, you can check out some of my work in the projects section.
             <br />
             <br />I am <b>open</b> to new collaborations or work where I can
