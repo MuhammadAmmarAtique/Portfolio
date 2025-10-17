@@ -13,14 +13,14 @@ const About = () => {
             Get to <b>know</b> me!
           </h1>
           <p>
-            Hi, my name is <b>Ammar Atique</b> and I am from Wah Cantt, Pakistan.
-            I'm a <b>Software Engineer</b> with a <b>Bachelors in Computer Science</b>. <br />
+            Hi, my name is <b>Ammar Atique</b> and I am from Wah Cantt,
+            Pakistan. I'm a <b>Software Engineer</b> with a{" "}
+            <b>Bachelors in Computer Science</b>. <br />
             <br />
-            Currently I am working as a <b>
-              Software Enginner Intern at Pixako Technologies.
-            </b>{" "}
-            I love to create projects with beautiful
-            designs, you can check out some of my work in the projects section.
+            Currently I am working as a{" "}
+            <b>Software Engineer at Pixako Technologies</b>. I love to create
+            projects with beautiful designs, you can check out some of my work
+            in the projects section.
             <br />
             <br />I am <b>open</b> to new collaborations or work where I can
             contribute and grow. Feel free to connect with me, links are in the
@@ -42,25 +42,39 @@ const About = () => {
 
       <h1 className="SkillsHeading">Professional Skillset</h1>
       <div className="skills">
+        {/* Frontend */}
         <Skills skill="HTML" />
         <Skills skill="CSS" />
         <Skills skill="JavaScript" />
-        <Skills skill="Mongodb" />
-        <Skills skill="Express" />
+        <Skills skill="TypeScript" />
         <Skills skill="React.js" />
-        <Skills skill="Node" />
+        <Skills skill="Next.js" />
+        <Skills skill="MUI" />
         <Skills skill="Bootstrap" />
         <Skills skill="Tailwind CSS" />
         <Skills skill="Styled Components" />
-        <Skills skill="Git" />
-        <Skills skill="Github" />
-        <Skills skill="Stackoverflow" />
-        <Skills skill="Python" />
-        <Skills skill="C++" />
-        <Skills skill="Ubuntu Linux" />
-        <Skills skill="Windows" />
+        <Skills skill="Yup" />
+
+        {/* Backend & Database */}
+        <Skills skill="Node.js" />
+        <Skills skill="Express" />
+        <Skills skill="GraphQL" />
+        <Skills skill="Apollo Client + Server" />
+        <Skills skill="MongoDB" />
         <Skills skill="SQL" />
         <Skills skill="MySQL" />
+
+        {/* Tools & Platforms */}
+        <Skills skill="Git" />
+        <Skills skill="GitHub" />
+        <Skills skill="Bitbucket" />
+        <Skills skill="Stack Overflow" />
+        <Skills skill="Ubuntu Linux" />
+        <Skills skill="Windows" />
+
+        {/* Programming Languages */}
+        <Skills skill="Python" />
+        <Skills skill="C++" />
       </div>
     </>
   );
