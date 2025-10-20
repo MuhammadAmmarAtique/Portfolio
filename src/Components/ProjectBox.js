@@ -7,15 +7,15 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
     TruckManagementSystemDesc : "Truck Management System is a full-stack logistics platform for efficiently managing vehicles, jobs, and allocations in real time.",
     TruckManagementSystemGithub : "https://github.com/MuhammadAmmarAtique/truckManagementSystem",
-    // AuctionPlatformWebsite : "",
+     TruckManagementSystemWebsite: "", 
 
       AuctionPlatformDesc : "An advanced online auction platform built with the MERN stack, featuring dynamic bidding, user role management, automated commission processing, and secure payment integration.",
     AuctionPlatformGithub : "https://github.com/MuhammadAmmarAtique/auctionPlatform",
-    // AuctionPlatformWebsite : "",
+    AuctionPlatformWebsite : "",  
 
     VideoSharingAppDesc : "A full-featured video-sharing platform inspired by YouTube, offering user management, video uploads, subscriptions, playlists, and community interaction features.",
     VideoSharingAppGithub : "https://github.com/MuhammadAmmarAtique/videoSharingApp",
-    // VideoSharingAppWebsite : "",
+    VideoSharingAppWebsite : "",
 
     ReactEcomDesc : "This is an E-commerce web app implemented using React.js and third party libraries",
     ReactEcomGithub : "https://github.com/MuhammadAmmarAtique/ReactEcom",
@@ -34,10 +34,8 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     FoodDeliveryWebsite:"https://muhammadammaratique.github.io/FoodDeliveryWeb/",
   }
 
-  let show ='';
-  if(desc[projectName + 'Github']===""){
-    show="none";
-  }
+   const showGithub = desc[projectName + 'Github'] !== "";
+  const showDemo = desc[projectName + 'Website'] !== "";
     
   return (
     <div className='projectBox'> 
@@ -49,13 +47,17 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             {desc[projectName + 'Desc']}
             <br />
 
-            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank'>
-              <button className='projectbtn'><FaGithub/> Github</button>
-            </a>
+             {showGithub && (
+          <a href={desc[projectName + 'Github']} target='_blank' rel='noreferrer'>
+            <button className='projectbtn'><FaGithub /> Github</button>
+          </a>
+        )}
 
-            <a href={desc[projectName + 'Website']} target='_blank'>
-              <button className='projectbtn'><CgFileDocument/> Demo</button>
-            </a>
+              {showDemo && (
+          <a href={desc[projectName + 'Website']} target='_blank' rel='noreferrer'>
+            <button className='projectbtn'><CgFileDocument /> Demo</button>
+          </a>
+        )}
         </div>
     </div>
   )
