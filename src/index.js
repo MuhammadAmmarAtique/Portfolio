@@ -12,11 +12,12 @@ root.render(
 );
 
 // Register service worker (production builds only)
-serviceWorkerRegistration.register({
-  onUpdate: (registration) => {
-    // Optionally prompt user to refresh
-    console.log("SW updated", registration);
-  },
-}).catch(error => {
-  console.error('SW registration failed:', error);
-});
+try {
+  serviceWorkerRegistration.register({
+    onUpdate: (registration) => {
+      console.log("SW updated", registration);
+    },
+  });
+} catch (error) {
+  console.error("SW registration failed:", error);
+}
