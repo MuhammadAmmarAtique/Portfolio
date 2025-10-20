@@ -13,13 +13,12 @@ const About = () => {
             Get to <b>know</b> me!
           </h1>
           <p>
-            Hi, my name is <b>Ammar Atique</b> and I am from Wah Cantt,
+            Hi, my name is <b>Ammar Atique</b> and I am from Islamabad,
             Pakistan. I'm a <b>Software Engineer</b> with a{" "}
             <b>Bachelors in Computer Science</b>. <br />
             <br />
             Currently I am working as a{" "}
-            <b>Software Engineer at Pixako Technologies</b>. I love to create
-            projects with beautiful designs, you can check out some of my work
+            <b>Software Engineer at Pixako Technologies</b>. I’m passionate about crafting seamless and visually appealing digital experiences, combining elegant design with powerful functionality. You can check out some of my work
             in the projects section.
             <br />
             <br />I am <b>open</b> to new collaborations or work where I can
