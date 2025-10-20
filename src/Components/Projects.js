@@ -1,12 +1,12 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
-import TruckManagementSystemImage from '../images/TruckManagementSystemImage.png';
-import AuctionPlatformImage from '../images/AuctionPlatformImage.png';
-import VideoSharingAppImage from '../images/VideoSharingAppImage.png';
-import EcomImage from '../images/EcomImage.png';
-import TodoImage from '../images/TodoImage.png';
-import BubbleImage from '../images/BubbleImage.png';
-import FoodImage from '../images/FoodImage.png';
+import TruckManagementSystemImage from '../Images/TruckManagementSystemImage.png';
+import AuctionPlatformImage from '../Images/AuctionPlatformImage.png';
+import VideoSharingAppImage from '../Images/VideoSharingAppImage.png';
+import EcomImage from '../Images/EcomImage.png';
+import TodoImage from '../Images/TodoImage.png';
+import BubbleImage from '../Images/BubbleImage.png';
+import FoodImage from '../Images/FoodImage.png';
 
 const Projects = () => {
   return (
