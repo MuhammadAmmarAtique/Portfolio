@@ -5,6 +5,18 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
+    TruckManagementSystemDesc : "Truck Management System is a full-stack logistics platform for efficiently managing vehicles, jobs, and allocations in real time.",
+    TruckManagementSystemGithub : "https://github.com/MuhammadAmmarAtique/truckManagementSystem",
+    // AuctionPlatformWebsite : "",
+
+      AuctionPlatformDesc : "An advanced online auction platform built with the MERN stack, featuring dynamic bidding, user role management, automated commission processing, and secure payment integration.",
+    AuctionPlatformGithub : "https://github.com/MuhammadAmmarAtique/auctionPlatform",
+    // AuctionPlatformWebsite : "",
+
+    VideoSharingAppDesc : "A full-featured video-sharing platform inspired by YouTube, offering user management, video uploads, subscriptions, playlists, and community interaction features.",
+    VideoSharingAppGithub : "https://github.com/MuhammadAmmarAtique/videoSharingApp",
+    // VideoSharingAppWebsite : "",
+
     ReactEcomDesc : "This is an E-commerce web app implemented using React.js and third party libraries",
     ReactEcomGithub : "https://github.com/MuhammadAmmarAtique/ReactEcom",
     ReactEcomWebsite : "https://ammar1ecom.netlify.app/",
