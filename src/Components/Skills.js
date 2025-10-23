@@ -27,6 +27,7 @@ import {
   SiGraphql,
   SiTypescript,
   SiApollographql,
+  SiJest,
 } from "react-icons/si";
 
 const Skills = ({ skill }) => {
@@ -53,15 +54,16 @@ const Skills = ({ skill }) => {
     SQL: <SiPostgresql />,
     MySQL: <SiMysql />,
 
-    //  Tools & Platforms
+    // ⚙️ Tools & Platforms
     Git: <FaGitAlt />,
     GitHub: <FaGithub />,
     Bitbucket: <FaBitbucket />,
     "Stack Overflow": <SiStackoverflow />,
     "Ubuntu Linux": <SiLinux />,
     Windows: <FaWindows />,
+    Jest: <SiJest />, 
 
-    //  Languages
+    // 💻 Languages
     Python: <FaPython />,
     "C++": <CgCPlusPlus />,
   };

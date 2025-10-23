@@ -70,6 +70,7 @@ const About = () => {
         <Skills skill="Stack Overflow" />
         <Skills skill="Ubuntu Linux" />
         <Skills skill="Windows" />
+        <Skills skill="Jest" /> 
 
         {/* Programming Languages */}
         <Skills skill="Python" />
