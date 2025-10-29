@@ -1,6 +1,6 @@
 # My Personal Portfolio
 
-<p>This project is my personal portfolio which features some of my skills, GitHub projects, and my resume.</p>
+<p>This project is my my personal portfolio which features some of my skills, GitHub projects, and my resume.</p>
 
 <p>Some of the features of this website are:</p>
 <ul>
